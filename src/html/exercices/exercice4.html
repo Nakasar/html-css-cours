@@ -1,0 +1,114 @@
+<!--
+Exercice 4
+
+Consignes :
+- Recopier les exercices 1 et 2 ci-dessous
+- Les adapter pour que les 2 exercices soient sur 2 colonnes différentes
+sur Desktop, et sur une seule colonne sur Mobile
+- Adapter le formulaire pour qu'il respecte les guidelines
+Bootstrap sur les formulaires
+-->
+<!DOCTYPE html>
+<html lang='fr'>
+<head>
+  <meta charset="utf-8"/>
+  <title>Exercie 4 - BootStrap</title>
+</head>
+<body>
+  <div class="row">
+    <div class="col-md-6">
+      <h1>HTML main beacon</h1>
+      <table class="table">
+        <tr>
+          <th>Beacon</th>
+          <th>Content</th>
+        </tr>
+        <tr>
+          <td>&lt;p&gt;</td>
+          <td>"texte"</td>
+        </tr>
+        <tr>
+          <td>&lt;span&gt;</td>
+          <td>"formated text"</td>
+        </tr>
+        <tr>
+          <td>&lt;div&gt;</td>
+          <td>"code"</td>
+        </tr>
+        <tr>
+          <td>&lt;hX&gt;</td>
+          <td>"text"</td>
+        </tr>
+        <tr>
+          <td>&lt;table&gt;</td>
+          <td>&lt;tr&gt;</td>
+        </tr>
+        <tr>
+          <td>&lt;tr&gt;</td>
+          <td>&lt;td&gt; &lt;th&gt;</td>
+        </tr>
+        <tr>
+          <td>&lt;td&gt;</td>
+          <td>"code"</td>
+        </tr>
+        <tr>
+          <td>&lt;th&gt;</td>
+          <td>"code"</td>
+        </tr>
+        <tr>
+          <td>&lt;head&gt;</td>
+          <td>&lt;meta&gt; &lt;link&gt; &lt;title&gt;</td>
+        </tr>
+        <tr>
+          <td>&lt;title&gt;</td>
+          <td>"text</td>
+        </tr>
+        <tr>
+          <td>&lt;article&gt;</td>
+          <td>"code</td>
+        </tr>
+        <tr>
+          <td>&lt;body&gt;</td>
+          <td>"code</td>
+        </tr>
+        <tr>
+          <td>&lt;ul&gt; &lt;ol&gt;</td>
+          <td>&lt;li&gt;</td>
+        </tr>
+        <tr>
+          <td>&lt;li&gt;</td>
+          <td>"code"</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="col-md-6">
+      <h1>Subscribe !</h1>
+      <form method="post" id="form_subscribe">
+        <div class="form-group">
+          <label for="firstname">First Name</label>
+          <input type="text" id="firstname" class="form-control" name="firstname"/>
+        </div>
+        <div class="form-group">
+          <label for="lastname">Last Name</label></td>
+          <input type="text" id="lastname" class="form-control" name="lastname"/>
+        </div>
+        <div class="form-group">
+          <label for="Email">Email</label>
+          <input type="email" id="email" class="form-control" name="email"/>
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password</label>
+          <input type="password" id="pwd" class="form-control" name="pwd"/>
+        </div>
+        <div class="form-check">
+          <label for="cgu" class="form-check-label">
+            <input type="checkbox" id="cgu" name="cgu" class="form-check-input"/>
+            I accept the CGU.
+          </label>
+        </div>
+        <button type="submit" form="form_subscribe" value="Subscribe" class="btn-btn-primary">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</body>

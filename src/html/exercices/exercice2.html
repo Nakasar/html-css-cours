@@ -1,0 +1,48 @@
+<!--Exercice 2
+
+Consignes :
+- Mettre en forme l'exercice 2
+- Créer ci-dessous un formulaire d'inscription contenant les champs :
+Prénom, nom, email, mot de passe, checkbox pour accepter un quelconque
+ règlement et un bouton de validation.
+-->
+
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset="utf-8"/>
+  <title>Exercie 2 - Forms</title>
+</head>
+<body>
+  <article>
+    <h1>Subscribe !</h1>
+    <form method="post" id="form_subscribe">
+      <table class="table">
+        <tr>
+          <td><label for="firstname">First Name</label></td>
+          <td><input type="text" id="firstname" name="firstname"/></td>
+        </tr>
+        <tr>
+          <td><label for="lastname">Last Name</label></td>
+          <td><input type="text" id="lastname" name="lastname"/></td>
+        </tr>
+        <tr>
+          <td><label for="Email">Email</label></td>
+          <td><input type="email" id="email" name="email"/></td>
+        </tr>
+        <tr>
+          <td><label for="pwd">Password</label></td>
+          <td><input type="password" id="pwd" name="pwd"/></td>
+        </tr>
+        <tr>
+          <td><label for="cgu">I accept the CGU.</label></td>
+          <td><input type="checkbox" id="cgu" name="cgu"/></td>
+        </tr>
+        <tr>
+          <td><button type="submit" form="form_subscribe" value="Subscribe">Subscribe</button></td>
+        </tr>
+      </table>
+    </form>
+  </article>
+</body>
+</html>

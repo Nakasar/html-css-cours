@@ -1,0 +1,41 @@
+body #main-content div.box > a, a.special {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: sans-serif;
+
+  color: #000;
+  background-color: #fff;
+}
+
+body #main-content {
+  position: relative;
+}
+
+body #main-content div.box > a, a.special {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+  height: 100px;
+
+  display: block; /*hidden, inline, ...*/
+}
+
+/*
+Exercice 3
+
+Consignes :
+- Mettre en forme l'exercice 3
+- Recopier le formulaire d'inscription précédent ci-dessous
+- Grâce au fichier style.css, mettre le texte des labels en bleu, agrandir
+la police dans les input texte, placer un bloc en position absolue à droite
+du champ adresse email avec un texte de votre choix en police 10px rouge.
+*/
+
+body #form_subscribe label {
+  color: blue;
+}
+
+body #form_subscribe input {
+  font-size: 1.5em;
+}
